@@ -1,0 +1,9 @@
+bin
+bin_test
+generated
+generated-sources
+
+.gradle
+build
+
+target

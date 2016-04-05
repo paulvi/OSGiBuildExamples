@@ -1,0 +1,29 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	${junit} 
+Bundle-Version: 1.0.0.${tstamp}
+Private-Package:  \
+	com.javacodegeeks.gradle.osgi
+Service-Component:  \
+	*
+Bundle-Activator: com.javacodegeeks.gradle.osgi.Activator
+javac.source:1.7
+javac.target:1.7
+-resolve: auto
+-runrequires:  \
+	osgi.identity;filter:='(osgi.identity=GradleOSGiProject)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
+	osgi.identity;filter:='(osgi.identity=osgi.cmpn)'
+Export-Package:  \
+	com.javacodegeeks.gradle.osgi
+-runfw: org.apache.felix.framework;version='[4.0.3,4.0.3]'
+-runee: JavaSE-1.7
+-runbundles:  \
+	GradleOSGiProject;version=latest,\
+	org.apache.felix.gogo.command;version='[0.14.0,0.14.1)',\
+	org.apache.felix.gogo.runtime;version='[0.12.1,0.12.2)',\
+	org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)',\
+	osgi.cmpn;version='[5.0.0,5.0.1)'

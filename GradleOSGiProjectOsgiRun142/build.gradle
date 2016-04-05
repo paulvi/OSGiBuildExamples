@@ -1,0 +1,42 @@
+buildscript {
+	repositories {
+		jcenter()
+		mavenCentral()
+	}
+	dependencies {
+		classpath "com.athaydes.gradle.osgi:osgi-run-core:1.4.2"
+	}
+}
+
+// repositories to download external files, like apache felix
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+// java version source compatibility
+sourceCompatibility = 1.7
+
+apply plugin: 'com.athaydes.osgi-run'
+
+// osgi-run plugin task that add OSGi subprojects as a bundle files to deploy.
+runOsgi {
+  bundles += subprojects
+}
+
+jar {
+	manifest { // Manifest.MF file customization
+		instruction 'Private-Package','com.javacodegeeks.gradle.osgi'
+		instruction 'Bundle-Vendor', 'JavaCodeGeeks'
+		instruction 'Bundle-Description', 'First OSGi Bundle Created By Gradle JCG Tutorial'
+		instruction 'Bundle-Activator', 'com.javacodegeeks.gradle.osgi.HelloActivator'
+		instruction 'Bundle-ManifestVersion', '2'
+		instruction 'Bundle-Version', '1.0.0.${tstamp}'
+		instruction 'Bundle-Name', 'GradleOSGiProjectIntegration'
+		instruction 'Bundle-SymbolicName', 'GradleOSGiProjectIntegration'
+		instruction 'Export-Package', 'com.javacodegeeks.gradle.osgi;version="1.0.0";uses:="org.osgi.framework"'
+	}
+}.doLast {
+    // copy manifest to location where the IDE can use it to let us know when we breach OSGi restrictions!
+    jar.manifest.writeTo( project.file( 'generated-sources/MANIFEST.MF' ) )
+}
