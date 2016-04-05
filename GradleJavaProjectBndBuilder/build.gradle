@@ -1,0 +1,16 @@
+// https://github.com/bndtools/bnd/blob/master/biz.aQute.bnd.gradle/README.md#gradle-plugin-for-non-workspace-builds {
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'biz.aQute.bnd:biz.aQute.bnd.gradle:3.1.0'
+  }
+}
+
+apply plugin: 'java'
+apply plugin: 'biz.aQute.bnd.builder'
+//}
+
+// java version source compatibility
+sourceCompatibility = 1.7
