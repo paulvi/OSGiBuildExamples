@@ -3,7 +3,7 @@ found via `bnd-maven-plugin` [announce and 2 plugins comparison](http://njbartle
 
 browse <https://github.com/bndtools/bnd/tree/bnd-maven-plugin-2.4.1/bnd-maven-plugin-examples>
 
-https://github.com/bndtools/bnd/issues/1390
+[What version of bndlib](https://github.com/bndtools/bnd/issues/1390)
 
 try `mvn install`
 
