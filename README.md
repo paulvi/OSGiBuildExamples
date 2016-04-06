@@ -14,7 +14,7 @@ is [“Maven first” approach](http://bnd.bndtools.org/tools/maven-felix.html)
 
 - [Gradle OSGi Plugin](https://docs.gradle.org/current/userguide/osgi_plugin.html)
 - [Gradle Bundle Plugin](https://github.com/TomDmitriev/gradle-bundle-plugin) allows you to create OSGI bundles. Its main difference from the Gradle OSGI Plugin is that it uses the bnd tool to generate not only a manifest but a whole jar.
--
+- [`osgi-run`](https://github.com/renatoathaydes/osgi-run) "Osgi-Run - A Gradle plugin to make the development of modular applications using OSGi completely painless"
 
 
 ### Repositories
