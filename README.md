@@ -1,7 +1,7 @@
 
 Collection of OSGi project build examples.
 
-There is no Manifest first builds for OSGi with maven or gradle.
+There is no [Manifest first builds for OSGi](http://stackoverflow.com/questions/35629891/manifest-first-osgi-build-with-gradle-migrating-from-ant-to-gradle) with maven or gradle.
 
 ## For maven
 
