@@ -10,6 +10,7 @@ aka [Apache Felix Maven Bundle Plugin (BND)](http://felix.apache.org/documentati
 is [“Maven first” approach](http://bnd.bndtools.org/tools/maven-felix.html) 
 - `bnd-maven-plugin` [announce and 2 plugins comparison](http://njbartlett.name/2015/03/27/announcing-bnd-maven-plugin.html)
 - [`maven-pax-plugin`](https://github.com/ops4j/org.ops4j.pax.construct) "Build, manage and deploy many types of OSGi bundles". It have not release for 5 years, than [got new version](http://mvnrepository.com/artifact/org.ops4j/maven-pax-plugin) in 2016.
+- [Pax-Runner](https://ops4j1.jira.com/wiki/display/paxrunner/Pax+Runner) [on GitHub](https://github.com/ops4j/org.ops4j.pax.runner)
 
 ## For Gradle
 
