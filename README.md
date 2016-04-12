@@ -61,3 +61,18 @@ line. However the core of the tool is very elegant and powerful, and it combines
 well with standard and familiar build tools such as ANT.
 
 http://njbartlett.name/files/osgibook_preview_20091217.pdf
+
+Old bnd tools list from http://www.aqute.biz/Bnd/Download
+
+<p>bnd is already used by several different projects.
+</p>
+<div class="vspace"></div><table width="100%"><tbody><tr><td><a class="urllink" href="http://njbartlett.name/bndtools.html" rel="nofollow">Bndtools</a></td><td>A plugin for Eclipse that is completely based on bnd. It is available in the Eclipse marketplace.</td></tr>
+<tr><td><a class="urllink" href="http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html" rel="nofollow">Apache Maven Bundle Plugin</a></td><td>The plugin is based on bnd. You can find more information and tips at <a class="wikilink" href="http://www.aqute.biz/Bnd/Maven">Maven</a>.</td></tr>
+<tr><td><a class="urllink" href="http://felix.apache.org/site/sigil-key-features.html" rel="nofollow">Apache Felix Sigil</a></td><td>Ant/Eclipse plugin for <span class="wikiword">OSGi</span> development.</td></tr>
+<tr><td><a class="urllink" href="http://jaxenter.com/bnd4sbt-bnd-plugin-for-sbt-0-4-14804.html" rel="nofollow">Bnd4sbt</a></td><td>A bundle tool for Scala applications.</td></tr>
+<tr><td><a class="urllink" href="http://www.osmorc.org/" rel="nofollow">Osmorc</a></td><td>A plugin for IDEA's <span class="wikiword">IntelliJ</span>.</td></tr>
+<tr><td><a class="urllink" href="http://oss.intalio.com/buildr4osgi/index.html" rel="nofollow">Build4OSGi</a></td><td>A plugin for the <span class="wikiword">JRuby</span> based build tool <a class="urllink" href="http://buildr.apache.org/index.html" rel="nofollow">buildr</a></td></tr>
+<tr><td><a class="urllink" href="http://www.gradle.org/0.9-rc-1/docs/userguide/userguide_single.html#osgi_plugin" rel="nofollow">Gradle OSGi Plugin</a></td><td>A <a class="urllink" href="http://www.gradle.org" rel="nofollow">Gradle</a> based <span class="wikiword">OSGi</span> plugin. Gradle is a Groovy based builder.</td></tr>
+<tr><td><a class="wikilink" href="http://www.aqute.biz/Bnd/Ant">Ant</a></td><td>bnd is already an ant task</td></tr>
+<tr><td><a class="urllink" href="http://code.google.com/p/apache-felix-intellij-plugin/" rel="nofollow">Apache Felix IntelliJ Plugin</a></td><td align="left">provides native <span class="wikiword">IntelliJ</span> IDEA support for developing, running and debugging <span class="wikiword">OSGi</span> projects developed using Apache Felix and the Apache Felix Maven Bundle Plugin.</td></tr>
+</tbody></table>
